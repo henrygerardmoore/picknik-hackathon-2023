@@ -1,6 +1,0 @@
-# Service definition for AprilTag messages
-
-sensor_msgs/CameraInfo camera_info
-sensor_msgs/Image image
-float64 apriltag_size
-

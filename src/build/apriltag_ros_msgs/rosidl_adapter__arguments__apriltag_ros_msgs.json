@@ -1,7 +1,0 @@
-{
-  "package_name": "apriltag_ros_msgs",
-  "non_idl_tuples": [
-    "/opt/moveit_studio/user_ws/src/apriltag_ros_msgs:msg/Detection.msg",
-    "/opt/moveit_studio/user_ws/src/apriltag_ros_msgs:srv/GetAprilTagDetections.srv"
-  ]
-}

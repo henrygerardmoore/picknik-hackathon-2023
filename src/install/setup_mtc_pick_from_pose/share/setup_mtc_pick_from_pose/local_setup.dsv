@@ -1,3 +1,0 @@
-source;share/setup_mtc_pick_from_pose/environment/ament_prefix_path.sh
-source;share/setup_mtc_pick_from_pose/environment/library_path.sh
-source;share/setup_mtc_pick_from_pose/environment/path.sh

@@ -1,3 +1,0 @@
-source;share/get_apriltag_detection_pose/environment/ament_prefix_path.sh
-source;share/get_apriltag_detection_pose/environment/library_path.sh
-source;share/get_apriltag_detection_pose/environment/path.sh

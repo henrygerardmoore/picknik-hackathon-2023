@@ -1,6 +1,0 @@
-msg/Detection.idl
-msg/Detection.msg
-srv/GetAprilTagDetections.idl
-srv/GetAprilTagDetections.srv
-srv/GetAprilTagDetections_Request.msg
-srv/GetAprilTagDetections_Response.msg

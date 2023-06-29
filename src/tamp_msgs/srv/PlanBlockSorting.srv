@@ -1,0 +1,10 @@
+# Service definition for Pick and Place Task Planning
+
+# Request
+string[] block_ids
+string[] location_ids
+
+---
+
+# Response
+PickPlaceAction[] plan

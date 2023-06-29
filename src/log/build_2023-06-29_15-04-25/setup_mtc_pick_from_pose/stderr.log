@@ -1,8 +1,0 @@
-/opt/moveit_studio/user_ws/src/solution_setup_mtc_pick_from_pose/test/test_behavior_plugins.cpp: In member function ‘virtual void BehaviorTests_test_load_behavior_plugins_Test::TestBody()’:
-/opt/moveit_studio/user_ws/src/solution_setup_mtc_pick_from_pose/test/test_behavior_plugins.cpp:29:55: warning: ignoring return value of ‘std::unique_ptr<BT::TreeNode> BT::BehaviorTreeFactory::instantiateTreeNode(const string&, const string&, const BT::NodeConfig&) const’, declared with attribute ‘nodiscard’ [-Wunused-result]
-   29 |                               BT::NodeConfiguration());
-      |                                                       ^
-In file included from /opt/moveit_studio/user_ws/src/solution_setup_mtc_pick_from_pose/test/test_behavior_plugins.cpp:3:
-/opt/underlay_ws/install/behaviortree_cpp/include/behaviortree_cpp/bt_factory.h:310:29: note: declared here
-  310 |   std::unique_ptr<TreeNode> instantiateTreeNode(const std::string& name,
-      |                             ^~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,13 @@
+<root>
+    <TreeNodesModel>
+        <Action ID="GetBlockSortingPlan">
+            <description>
+                <p>
+                    Does task planning and outputs vector of actions
+                </p>
+            </description>
+            <input_port name="block_order" default="cmyk"></input_port>
+            <output_port name="action_vector" default="{action_vector}"></output_port>
+        </Action>
+    </TreeNodesModel>
+</root>

@@ -1,0 +1,4 @@
+objectives:
+  behavior_loader_plugins:
+    get_block_sorting_plan:
+      - "get_block_sorting_plan::GetBlockSortingPlanBehaviorsLoader"

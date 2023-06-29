@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>get_block_sorting_plan</name>
+  <version>1.0.0</version>
+  <description>Block sorting plan for PickNik hackathon 2023</description>
+
+  <maintainer email="sebastian.castro@picknik.ai">Sebastian Castro</maintainer>
+  <maintainer email="davide.faconti@picknik.ai">Davide Faconti</maintainer>
+  <maintainer email="henry.moore@picknik.ai">Henry Moore</maintainer>
+  <author email="sebastian.castro@picknik.ai">Sebastian Castro</author>
+  <author email="davide.faconti@picknik.ai">Davide Faconti</author>
+  <author email="henry.moore@picknik.ai">Henry Moore</author>
+
+  <license>BSD 3-Clause</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>moveit_common</build_depend>
+
+  <depend>moveit_studio_behavior_interface</depend>
+  <depend>tamp_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  <test_depend>ament_clang_format</test_depend>
+  <test_depend>ament_clang_tidy</test_depend>
+  <test_depend>ament_cmake_lint_cmake</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

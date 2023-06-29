@@ -51,8 +51,9 @@ class PlannerNode(Node):
         goal_literals = [("IsFree", "pswap")]
         for idx, block_id in enumerate(request.block_ids):
             goal_literals.append(
-                ("At", f"b{block_id}", f"p{idx}")
+                ("At", f"b{block_id}", f"p{idx+1}")
             )
+        print(goal_literals)
         goal = And(*goal_literals)
 
         # Do the planning
@@ -71,6 +72,9 @@ class PlannerNode(Node):
         )
 
         # Package up the solution into the service response.
+        print(solution.plan)
+        if not solution.plan:
+            return response
         actions = []
         for idx, act in enumerate(solution.plan):
             print(f"Action: {idx}: {act}")

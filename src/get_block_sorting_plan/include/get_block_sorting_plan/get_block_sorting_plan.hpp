@@ -3,7 +3,7 @@
 #include <moveit_studio_behavior_interface/service_client_behavior_base.hpp>
 #include <moveit_studio_behavior_interface/shared_resources_node.hpp>
 
-#include <apriltag_ros_msgs/srv/get_april_tag_detections.hpp>
+#include <tamp_msgs/srv/plan_block_sorting.hpp>
 
 namespace get_block_sorting_plan
 {
@@ -23,11 +23,11 @@ using GetTaskPlanService = tamp_msgs::srv::PlanBlockSorting;
  * | image          | input     | sensor_msgs::msg::Image         |
  * | detection_pose | output    | geometry_msgs::msg::PoseStamped |
  */
-class GetBlocksortingPlan : public moveit_studio::behaviors::ServiceClientBehaviorBase<GetTaskPlanService>
+class GetBlockSortingPlan : public moveit_studio::behaviors::ServiceClientBehaviorBase<GetTaskPlanService>
 {
 public:
   /** @brief Constructor for the get_apriltag_detections behavior. */
-  GetBlocksortingPlan(const std::string &name, const BT::NodeConfiguration &config, const std::shared_ptr<moveit_studio::behaviors::BehaviorContext> &shared_resources);
+  GetBlockSortingPlan(const std::string &name, const BT::NodeConfiguration &config, const std::shared_ptr<moveit_studio::behaviors::BehaviorContext> &shared_resources);
 
   /** @brief Implementation of the required providedPorts() function for this Behavior. */
   static BT::PortsList providedPorts();

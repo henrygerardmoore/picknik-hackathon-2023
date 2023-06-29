@@ -6,6 +6,9 @@
                     loop through poses
                 </p>
             </description>
-        </Action>
+            <input_port name="plan" default="{action_vector}" />
+            <output_port name="pick_pose" default="{pick_pose}" />
+            <output_port name="place_pose" default="{place_pose}" />
+        </Decorator>
     </TreeNodesModel>
 </root>

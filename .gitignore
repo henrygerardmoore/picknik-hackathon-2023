@@ -1,5 +1,7 @@
 .vscode
 
+dependencies/
+
 build/
 install/
 log/

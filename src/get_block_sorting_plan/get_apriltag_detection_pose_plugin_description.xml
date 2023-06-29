@@ -1,0 +1,5 @@
+<library path="get_block_sorting_plan">
+  <class type="get_block_sorting_plan::GetBlockSortingPlanBehaviorsLoader"
+         base_class_type="moveit_studio::behaviors::SharedResourcesNodeLoaderBase">
+  </class>
+</library>

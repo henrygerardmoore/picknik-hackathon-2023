@@ -10,23 +10,9 @@ namespace get_block_sorting_plan
 
 using GetTaskPlanService = tamp_msgs::srv::PlanBlockSorting;
 
-/**
- * @brief Calls an external ROS 2 service that detects AprilTags and
- * returns the pose of the first detection that matches the target AprilTag ID.
- * 
- * @details
- * | Data Port Name | Port Type | Object Type                     |
- * | -------------- | --------- | --------------------------------|
- * | apriltag_id    | input     | int                             |
- * | apriltag_size  | input     | double                          |
- * | file_prefix    | input     | sensor_msgs::msg::CameraInfo    |
- * | image          | input     | sensor_msgs::msg::Image         |
- * | detection_pose | output    | geometry_msgs::msg::PoseStamped |
- */
 class GetBlockSortingPlan : public moveit_studio::behaviors::ServiceClientBehaviorBase<GetTaskPlanService>
 {
 public:
-  /** @brief Constructor for the get_apriltag_detections behavior. */
   GetBlockSortingPlan(const std::string &name, const BT::NodeConfiguration &config, const std::shared_ptr<moveit_studio::behaviors::BehaviorContext> &shared_resources);
 
   /** @brief Implementation of the required providedPorts() function for this Behavior. */

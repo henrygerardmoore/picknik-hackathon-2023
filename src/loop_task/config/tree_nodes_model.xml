@@ -1,0 +1,11 @@
+<root>
+    <TreeNodesModel>
+        <Decorator ID="LoopTask">
+            <description>
+                <p>
+                    loop through poses
+                </p>
+            </description>
+        </Action>
+    </TreeNodesModel>
+</root>

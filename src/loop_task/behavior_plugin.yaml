@@ -1,0 +1,4 @@
+objectives:
+  behavior_loader_plugins:
+    loop_task:
+      - "loop_task::LoopBehaviorsLoader"

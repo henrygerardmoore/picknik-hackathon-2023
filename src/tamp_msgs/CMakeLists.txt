@@ -14,6 +14,7 @@ find_package(sensor_msgs REQUIRED)
 
 set(msg_files
   "msg/PickPlaceAction.msg"
+  "msg/PickPlacePlan.msg"
 )
 
 set(srv_files

@@ -7,4 +7,4 @@ string[] location_ids
 ---
 
 # Response
-PickPlaceAction[] plan
+PickPlacePlan plan

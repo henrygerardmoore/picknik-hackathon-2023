@@ -18,6 +18,27 @@ from geometry_msgs.msg import PoseStamped
 from tamp_msgs.msg import PickPlaceAction
 from tamp_msgs.srv import PlanBlockSorting
 
+pose_map = {
+    "p1": [-0.6, -0.1, 0.05],
+    "p2": [-0.6, 0.0, 0.05],
+    "p3": [-0.6, 0.1, 0.05],
+    "p4": [-0.6, 0.2, 0.05],
+    "pswap": [-.6, -.2, 0.05]
+}
+
+def get_pose(loc_name):
+    xyz = pose_map[loc_name]
+    pose = PoseStamped()
+    pose.pose.position.x = xyz[0]
+    pose.pose.position.y = xyz[1]
+    pose.pose.position.z = xyz[2]
+    pose.pose.orientation.x = -0.707
+    pose.pose.orientation.y = 0.707
+    pose.pose.orientation.z = 0.0
+    pose.pose.orientation.w = 0.0
+    pose.header.frame_id = "world"
+    return pose
+
 class PlannerNode(Node):
     def __init__(self):
         super().__init__("hackathon_planner")
@@ -78,12 +99,15 @@ class PlannerNode(Node):
         actions = []
         for idx, act in enumerate(solution.plan):
             print(f"Action: {idx}: {act}")
+            block_id = act.args[1]
+            pick_pose = get_pose(act.args[2])
+            place_pose = get_pose(act.args[3])
             actions.append(
                 PickPlaceAction(
                     action_id = idx,
-                    block_id = act.args[1],
-                    pick_pose = PoseStamped(),
-                    place_pose = PoseStamped(),
+                    block_id = block_id,
+                    pick_pose = pick_pose,
+                    place_pose = place_pose,
                 )
             )
         response.plan.actions = actions

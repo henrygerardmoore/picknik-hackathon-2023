@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/apriltag_ros_python/apriltag_ros_python.egg-info
+writing ../../build/apriltag_ros_python/apriltag_ros_python.egg-info/PKG-INFO
+writing dependency_links to ../../build/apriltag_ros_python/apriltag_ros_python.egg-info/dependency_links.txt
+writing entry points to ../../build/apriltag_ros_python/apriltag_ros_python.egg-info/entry_points.txt
+writing requirements to ../../build/apriltag_ros_python/apriltag_ros_python.egg-info/requires.txt
+writing top-level names to ../../build/apriltag_ros_python/apriltag_ros_python.egg-info/top_level.txt
+writing manifest file '../../build/apriltag_ros_python/apriltag_ros_python.egg-info/SOURCES.txt'
+reading manifest file '../../build/apriltag_ros_python/apriltag_ros_python.egg-info/SOURCES.txt'
+writing manifest file '../../build/apriltag_ros_python/apriltag_ros_python.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /opt/moveit_studio/user_ws/build/apriltag_ros_python/build
+creating /opt/moveit_studio/user_ws/build/apriltag_ros_python/build/lib
+creating /opt/moveit_studio/user_ws/build/apriltag_ros_python/build/lib/apriltag_ros_python
+copying src/apriltag_ros_python/__init__.py -> /opt/moveit_studio/user_ws/build/apriltag_ros_python/build/lib/apriltag_ros_python
+copying src/apriltag_ros_python/apriltag_detection_server.py -> /opt/moveit_studio/user_ws/build/apriltag_ros_python/build/lib/apriltag_ros_python
+copying src/apriltag_ros_python/apriltag_detection_client.py -> /opt/moveit_studio/user_ws/build/apriltag_ros_python/build/lib/apriltag_ros_python
+running install
+running install_lib
+creating /opt/moveit_studio/user_ws/install/apriltag_ros_python/lib/python3.10/site-packages/apriltag_ros_python
+copying /opt/moveit_studio/user_ws/build/apriltag_ros_python/build/lib/apriltag_ros_python/__init__.py -> /opt/moveit_studio/user_ws/install/apriltag_ros_python/lib/python3.10/site-packages/apriltag_ros_python
+copying /opt/moveit_studio/user_ws/build/apriltag_ros_python/build/lib/apriltag_ros_python/apriltag_detection_server.py -> /opt/moveit_studio/user_ws/install/apriltag_ros_python/lib/python3.10/site-packages/apriltag_ros_python
+copying /opt/moveit_studio/user_ws/build/apriltag_ros_python/build/lib/apriltag_ros_python/apriltag_detection_client.py -> /opt/moveit_studio/user_ws/install/apriltag_ros_python/lib/python3.10/site-packages/apriltag_ros_python
+byte-compiling /opt/moveit_studio/user_ws/install/apriltag_ros_python/lib/python3.10/site-packages/apriltag_ros_python/__init__.py to __init__.cpython-310.pyc
+byte-compiling /opt/moveit_studio/user_ws/install/apriltag_ros_python/lib/python3.10/site-packages/apriltag_ros_python/apriltag_detection_server.py to apriltag_detection_server.cpython-310.pyc
+byte-compiling /opt/moveit_studio/user_ws/install/apriltag_ros_python/lib/python3.10/site-packages/apriltag_ros_python/apriltag_detection_client.py to apriltag_detection_client.cpython-310.pyc
+running install_data
+creating /opt/moveit_studio/user_ws/install/apriltag_ros_python/share/ament_index
+creating /opt/moveit_studio/user_ws/install/apriltag_ros_python/share/ament_index/resource_index
+creating /opt/moveit_studio/user_ws/install/apriltag_ros_python/share/ament_index/resource_index/packages
+copying resource/apriltag_ros_python -> /opt/moveit_studio/user_ws/install/apriltag_ros_python/share/ament_index/resource_index/packages
+creating /opt/moveit_studio/user_ws/install/apriltag_ros_python/share/apriltag_ros_python/data
+copying data/test_image.png -> /opt/moveit_studio/user_ws/install/apriltag_ros_python/share/apriltag_ros_python/data
+creating /opt/moveit_studio/user_ws/install/apriltag_ros_python/share/apriltag_ros_python/launch
+copying launch/apriltag_detection_server.launch.py -> /opt/moveit_studio/user_ws/install/apriltag_ros_python/share/apriltag_ros_python/launch
+copying launch/apriltag_detection_client.launch.py -> /opt/moveit_studio/user_ws/install/apriltag_ros_python/share/apriltag_ros_python/launch
+running install_egg_info
+Copying ../../build/apriltag_ros_python/apriltag_ros_python.egg-info to /opt/moveit_studio/user_ws/install/apriltag_ros_python/lib/python3.10/site-packages/apriltag_ros_python-1.0.0-py3.10.egg-info
+running install_scripts
+Installing apriltag_detection_client script to /opt/moveit_studio/user_ws/install/apriltag_ros_python/lib/apriltag_ros_python
+Installing apriltag_detection_server script to /opt/moveit_studio/user_ws/install/apriltag_ros_python/lib/apriltag_ros_python
+writing list of installed files to '/opt/moveit_studio/user_ws/build/apriltag_ros_python/install.log'

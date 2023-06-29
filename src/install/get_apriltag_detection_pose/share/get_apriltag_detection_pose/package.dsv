@@ -1,0 +1,11 @@
+source;share/get_apriltag_detection_pose/hook/cmake_prefix_path.ps1
+source;share/get_apriltag_detection_pose/hook/cmake_prefix_path.dsv
+source;share/get_apriltag_detection_pose/hook/cmake_prefix_path.sh
+source;share/get_apriltag_detection_pose/hook/ld_library_path_lib.ps1
+source;share/get_apriltag_detection_pose/hook/ld_library_path_lib.dsv
+source;share/get_apriltag_detection_pose/hook/ld_library_path_lib.sh
+source;share/get_apriltag_detection_pose/local_setup.bash
+source;share/get_apriltag_detection_pose/local_setup.dsv
+source;share/get_apriltag_detection_pose/local_setup.ps1
+source;share/get_apriltag_detection_pose/local_setup.sh
+source;share/get_apriltag_detection_pose/local_setup.zsh

@@ -1,0 +1,4 @@
+[console_scripts]
+apriltag_detection_client = apriltag_ros_python.apriltag_detection_client:main
+apriltag_detection_server = apriltag_ros_python.apriltag_detection_server:main
+

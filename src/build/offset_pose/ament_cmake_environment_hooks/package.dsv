@@ -1,0 +1,4 @@
+source;share/offset_pose/local_setup.bash
+source;share/offset_pose/local_setup.dsv
+source;share/offset_pose/local_setup.sh
+source;share/offset_pose/local_setup.zsh

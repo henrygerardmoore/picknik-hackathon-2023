@@ -1,0 +1,3 @@
+source;share/offset_pose/environment/ament_prefix_path.sh
+source;share/offset_pose/environment/library_path.sh
+source;share/offset_pose/environment/path.sh

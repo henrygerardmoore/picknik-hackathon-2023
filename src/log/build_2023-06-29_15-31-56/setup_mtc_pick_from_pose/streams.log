@@ -1,0 +1,35 @@
+[0.032s] Invoking command in '/opt/moveit_studio/user_ws/build/setup_mtc_pick_from_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/moveit_studio/user_ws/install/apriltag_ros_python:/opt/overlay_ws/install/moveit_studio_rest_api:/opt/overlay_ws/install/moveit_studio_bridge:/opt/overlay_ws/install/moveit_studio_utils_py:/opt/overlay_ws/install/moveit_studio_site_config_template:/opt/overlay_ws/install/moveit_studio_behavior_template:/opt/underlay_ws/install/rqt_controller_manager:/opt/underlay_ws/install/ros2controlcli:/opt/underlay_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /opt/moveit_studio/user_ws/build/setup_mtc_pick_from_pose -- -j8 -l8
+[0.162s] [ 22%] Built target gtest_main
+[0.186s] [ 44%] Built target gtest
+[0.212s] [ 77%] Built target setup_mtc_pick_from_pose
+[0.301s] [100%] Built target test_behavior_plugins
+[0.336s] Invoked command in '/opt/moveit_studio/user_ws/build/setup_mtc_pick_from_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/moveit_studio/user_ws/install/apriltag_ros_python:/opt/overlay_ws/install/moveit_studio_rest_api:/opt/overlay_ws/install/moveit_studio_bridge:/opt/overlay_ws/install/moveit_studio_utils_py:/opt/overlay_ws/install/moveit_studio_site_config_template:/opt/overlay_ws/install/moveit_studio_behavior_template:/opt/underlay_ws/install/rqt_controller_manager:/opt/underlay_ws/install/ros2controlcli:/opt/underlay_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /opt/moveit_studio/user_ws/build/setup_mtc_pick_from_pose -- -j8 -l8
+[0.509s] Invoking command in '/opt/moveit_studio/user_ws/build/setup_mtc_pick_from_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/moveit_studio/user_ws/install/apriltag_ros_python:/opt/overlay_ws/install/moveit_studio_rest_api:/opt/overlay_ws/install/moveit_studio_bridge:/opt/overlay_ws/install/moveit_studio_utils_py:/opt/overlay_ws/install/moveit_studio_site_config_template:/opt/overlay_ws/install/moveit_studio_behavior_template:/opt/underlay_ws/install/rqt_controller_manager:/opt/underlay_ws/install/ros2controlcli:/opt/underlay_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /opt/moveit_studio/user_ws/build/setup_mtc_pick_from_pose
+[0.541s] -- Install configuration: "Release"
+[0.541s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/lib/libsetup_mtc_pick_from_pose.so
+[0.541s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/config
+[0.541s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/config/tree_nodes_model.xml
+[0.541s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/setup_mtc_pick_from_pose_plugin_description.xml
+[0.541s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/environment/library_path.sh
+[0.541s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/environment/library_path.dsv
+[0.541s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/ament_index/resource_index/package_run_dependencies/setup_mtc_pick_from_pose
+[0.541s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/ament_index/resource_index/parent_prefix_path/setup_mtc_pick_from_pose
+[0.541s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/environment/ament_prefix_path.sh
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/environment/ament_prefix_path.dsv
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/environment/path.sh
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/environment/path.dsv
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/local_setup.bash
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/local_setup.sh
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/local_setup.zsh
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/local_setup.dsv
+[0.542s] -- Installing: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/package.dsv
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/ament_index/resource_index/packages/setup_mtc_pick_from_pose
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/ament_index/resource_index/moveit_studio_behavior_interface__pluginlib__plugin/setup_mtc_pick_from_pose
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/cmake/setup_mtc_pick_from_poseTargetsExport.cmake
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/cmake/setup_mtc_pick_from_poseTargetsExport-release.cmake
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/cmake/ament_cmake_export_targets-extras.cmake
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/cmake/setup_mtc_pick_from_poseConfig.cmake
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/cmake/setup_mtc_pick_from_poseConfig-version.cmake
+[0.542s] -- Up-to-date: /opt/moveit_studio/user_ws/install/setup_mtc_pick_from_pose/share/setup_mtc_pick_from_pose/package.xml
+[0.559s] Invoked command in '/opt/moveit_studio/user_ws/build/setup_mtc_pick_from_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/moveit_studio/user_ws/install/apriltag_ros_python:/opt/overlay_ws/install/moveit_studio_rest_api:/opt/overlay_ws/install/moveit_studio_bridge:/opt/overlay_ws/install/moveit_studio_utils_py:/opt/overlay_ws/install/moveit_studio_site_config_template:/opt/overlay_ws/install/moveit_studio_behavior_template:/opt/underlay_ws/install/rqt_controller_manager:/opt/underlay_ws/install/ros2controlcli:/opt/underlay_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /opt/moveit_studio/user_ws/build/setup_mtc_pick_from_pose

@@ -1,0 +1,93 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /opt/moveit_studio/user_ws/build/ur_base_config
+-- Install configuration: "Release"
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/base_config.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/initial_positions.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/control
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/control/ur5e.ros2_control.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/cameras.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/moveit
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/moveit/sensors_3d.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/moveit/pick_ik_kinematics.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/moveit/pick_ik_kinematics_servo.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/moveit/pilz_cartesian_limits.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/moveit/ur5e_servo.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/moveit/ur5e.srdf
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/moveit/joint_limits.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/moveit/kinematics.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/moveit/ompl_planning.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/config/realsense_config_high_accuracy.json
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/description
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/description/ur5e.xacro
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/description/gripper_and_camera.xacro
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/launch
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/launch/robot_drivers_to_persist.launch.py
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/launch/sim
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/launch/sim/robot_drivers_to_persist_sim.launch.py
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/solution_pick_apriltag_annotated_object_subtree.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/take_snapshot.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/reactivate_gripper.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/solution_detect_april_tag_pose_and_pick_object.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/move_to_named_pose.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/update_admittance_controller_config.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/cycle_between_waypoints.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/solution_pick_apriltag_annotated_object.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/teleoperate.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/move_to_pose.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/find_cuboids_config.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/pick_object.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/interpolate_to_joint_state.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/pick_from_pose_config.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/looping_pick_and_place_object.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/close_gripper.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/pick_from_pose.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/solution_detect_april_tag_pose.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/pick_object_config.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/solution_pick_object_using_pose.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/inspect_surface.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/move_to_known_pose.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/open_gripper.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/interpolate_to_named_state.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/find_cuboids.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/move_to_joint_state.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/pick_place_object.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/push_button.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/objectives/clear_snapshot.xml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/waypoints
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/waypoints/ur5e_waypoints.yaml
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ament_index/resource_index/package_run_dependencies/ur_base_config
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ament_index/resource_index/parent_prefix_path/ur_base_config
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/environment/ament_prefix_path.sh
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/environment/ament_prefix_path.dsv
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/environment/path.sh
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/environment/path.dsv
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/local_setup.bash
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/local_setup.sh
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/local_setup.zsh
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/local_setup.dsv
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/package.dsv
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ament_index/resource_index/packages/ur_base_config
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/cmake/ur_base_configConfig.cmake
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/cmake/ur_base_configConfig-version.cmake
+-- Installing: /opt/moveit_studio/user_ws/install/ur_base_config/share/ur_base_config/package.xml

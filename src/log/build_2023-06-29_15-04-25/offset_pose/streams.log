@@ -1,0 +1,111 @@
+[0.033s] Invoking command in '/opt/moveit_studio/user_ws/build/offset_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/overlay_ws/install/moveit_studio_rest_api:/opt/overlay_ws/install/moveit_studio_bridge:/opt/overlay_ws/install/moveit_studio_utils_py:/opt/overlay_ws/install/moveit_studio_site_config_template:/opt/overlay_ws/install/moveit_studio_behavior_template:/opt/underlay_ws/install/rqt_controller_manager:/opt/underlay_ws/install/ros2controlcli:/opt/underlay_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /opt/moveit_studio/user_ws/src/solution_offset_pose -DCMAKE_C_FLAGS='--coverage' -DCMAKE_CXX_FLAGS='--coverage' -DBUILD_TESTING=ON -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_PYTEST_WITH_COVERAGE=ON -DCMAKE_INSTALL_PREFIX=/opt/moveit_studio/user_ws/install/offset_pose
+[0.051s] Not searching for unused variables given on the command line.
+[0.187s] -- The C compiler identification is GNU 11.3.0
+[0.307s] -- The CXX compiler identification is GNU 11.3.0
+[0.315s] -- Detecting C compiler ABI info
+[0.542s] -- Detecting C compiler ABI info - done
+[0.552s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.552s] -- Detecting C compile features
+[0.553s] -- Detecting C compile features - done
+[0.556s] -- Detecting CXX compiler ABI info
+[0.698s] -- Detecting CXX compiler ABI info - done
+[0.705s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.705s] -- Detecting CXX compile features
+[0.705s] -- Detecting CXX compile features - done
+[0.719s] -- Found moveit_common: 2.7.4 (/opt/underlay_ws/install/moveit_common/share/moveit_common/cmake)
+[0.749s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.240s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.718s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[1.732s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.732s] -- BACKWARD_HAS_UNWIND=1
+[1.732s] -- BACKWARD_HAS_BACKTRACE=0
+[1.732s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.733s] -- BACKWARD_HAS_DW=1
+[1.733s] -- BACKWARD_HAS_BFD=0
+[1.733s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.738s] -- Found moveit_studio_behavior_interface: 2.3.0 (/opt/overlay_ws/install/moveit_studio_behavior_interface/share/moveit_studio_behavior_interface/cmake)
+[2.006s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.037s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.067s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.204s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.107s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[5.350s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.681s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.760s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[6.085s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.224s] -- Found Threads: TRUE  
+[6.704s] -- Found rclcpp_lifecycle: 16.0.4 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[6.832s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[7.166s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[7.262s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.262s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.189s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[8.874s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[9.101s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[9.522s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[10.128s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.143s] -- Found ament_cmake_gtest: 1.3.4 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[10.156s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.237s] -- Added test 'lint_cmake' to check CMake code style
+[10.240s] -- Configuring done
+[10.309s] -- Generating done
+[10.311s] -- Build files have been written to: /opt/moveit_studio/user_ws/build/offset_pose
+[10.327s] Invoked command in '/opt/moveit_studio/user_ws/build/offset_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/overlay_ws/install/moveit_studio_rest_api:/opt/overlay_ws/install/moveit_studio_bridge:/opt/overlay_ws/install/moveit_studio_utils_py:/opt/overlay_ws/install/moveit_studio_site_config_template:/opt/overlay_ws/install/moveit_studio_behavior_template:/opt/underlay_ws/install/rqt_controller_manager:/opt/underlay_ws/install/ros2controlcli:/opt/underlay_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /opt/moveit_studio/user_ws/src/solution_offset_pose -DCMAKE_C_FLAGS='--coverage' -DCMAKE_CXX_FLAGS='--coverage' -DBUILD_TESTING=ON -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --no-warn-unused-cli -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_PYTEST_WITH_COVERAGE=ON -DCMAKE_INSTALL_PREFIX=/opt/moveit_studio/user_ws/install/offset_pose
+[10.328s] Invoking command in '/opt/moveit_studio/user_ws/build/offset_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/overlay_ws/install/moveit_studio_rest_api:/opt/overlay_ws/install/moveit_studio_bridge:/opt/overlay_ws/install/moveit_studio_utils_py:/opt/overlay_ws/install/moveit_studio_site_config_template:/opt/overlay_ws/install/moveit_studio_behavior_template:/opt/underlay_ws/install/rqt_controller_manager:/opt/underlay_ws/install/ros2controlcli:/opt/underlay_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /opt/moveit_studio/user_ws/build/offset_pose -- -j8 -l8
+[10.467s] [ 11%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[10.471s] [ 22%] Building CXX object CMakeFiles/offset_pose.dir/src/offset_pose.cpp.o
+[10.480s] [ 33%] Building CXX object CMakeFiles/offset_pose.dir/src/register_behaviors.cpp.o
+[10.485s] [ 44%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[12.047s] [ 55%] Linking CXX static library libgtest_main.a
+[12.237s] [ 55%] Built target gtest_main
+[26.404s] [ 66%] Linking CXX static library libgtest.a
+[26.572s] [ 66%] Built target gtest
+[27.835s] /opt/moveit_studio/user_ws/src/solution_offset_pose/src/register_behaviors.cpp: In member function ‘virtual void offset_pose::OffsetPoseBehaviorsLoader::registerBehaviors(BT::BehaviorTreeFactory&, const std::shared_ptr<moveit_studio::behaviors::BehaviorContext>&)’:
+[27.835s] /opt/moveit_studio/user_ws/src/solution_offset_pose/src/register_behaviors.cpp:15:94: warning: unused parameter ‘shared_resources’ [-Wunused-parameter]
+[27.835s]    15 |                            const std::shared_ptr<moveit_studio::behaviors::BehaviorContext> &shared_resources) override
+[27.835s]       |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+[27.868s] [ 77%] Linking CXX shared library liboffset_pose.so
+[28.123s] [ 77%] Built target offset_pose
+[28.211s] [ 88%] Building CXX object test/CMakeFiles/test_behavior_plugins.dir/test_behavior_plugins.cpp.o
+[55.423s] /opt/moveit_studio/user_ws/src/solution_offset_pose/test/test_behavior_plugins.cpp: In member function ‘virtual void BehaviorTests_test_load_behavior_plugins_Test::TestBody()’:
+[55.423s] /opt/moveit_studio/user_ws/src/solution_offset_pose/test/test_behavior_plugins.cpp:29:55: warning: ignoring return value of ‘std::unique_ptr<BT::TreeNode> BT::BehaviorTreeFactory::instantiateTreeNode(const string&, const string&, const BT::NodeConfig&) const’, declared with attribute ‘nodiscard’ [-Wunused-result]
+[55.423s]    29 |                               BT::NodeConfiguration());
+[55.423s]       |                                                       ^
+[55.423s] In file included from /opt/moveit_studio/user_ws/src/solution_offset_pose/test/test_behavior_plugins.cpp:3:
+[55.423s] /opt/underlay_ws/install/behaviortree_cpp/include/behaviortree_cpp/bt_factory.h:310:29: note: declared here
+[55.423s]   310 |   std::unique_ptr<TreeNode> instantiateTreeNode(const std::string& name,
+[55.423s]       |                             ^~~~~~~~~~~~~~~~~~~
+[55.443s] [100%] Linking CXX executable test_behavior_plugins
+[55.554s] [100%] Built target test_behavior_plugins
+[55.569s] Invoked command in '/opt/moveit_studio/user_ws/build/offset_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/overlay_ws/install/moveit_studio_rest_api:/opt/overlay_ws/install/moveit_studio_bridge:/opt/overlay_ws/install/moveit_studio_utils_py:/opt/overlay_ws/install/moveit_studio_site_config_template:/opt/overlay_ws/install/moveit_studio_behavior_template:/opt/underlay_ws/install/rqt_controller_manager:/opt/underlay_ws/install/ros2controlcli:/opt/underlay_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /opt/moveit_studio/user_ws/build/offset_pose -- -j8 -l8
+[55.654s] Invoking command in '/opt/moveit_studio/user_ws/build/offset_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/overlay_ws/install/moveit_studio_rest_api:/opt/overlay_ws/install/moveit_studio_bridge:/opt/overlay_ws/install/moveit_studio_utils_py:/opt/overlay_ws/install/moveit_studio_site_config_template:/opt/overlay_ws/install/moveit_studio_behavior_template:/opt/underlay_ws/install/rqt_controller_manager:/opt/underlay_ws/install/ros2controlcli:/opt/underlay_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /opt/moveit_studio/user_ws/build/offset_pose
+[55.665s] -- Install configuration: "Release"
+[55.665s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/lib/liboffset_pose.so
+[55.665s] -- Set runtime path of "/opt/moveit_studio/user_ws/install/offset_pose/lib/liboffset_pose.so" to ""
+[55.666s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/config
+[55.666s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/config/tree_nodes_model.xml
+[55.666s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/offset_pose_plugin_description.xml
+[55.666s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/environment/library_path.sh
+[55.666s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/environment/library_path.dsv
+[55.666s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/ament_index/resource_index/package_run_dependencies/offset_pose
+[55.666s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/ament_index/resource_index/parent_prefix_path/offset_pose
+[55.667s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/environment/ament_prefix_path.sh
+[55.667s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/environment/ament_prefix_path.dsv
+[55.667s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/environment/path.sh
+[55.667s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/environment/path.dsv
+[55.667s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/local_setup.bash
+[55.667s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/local_setup.sh
+[55.667s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/local_setup.zsh
+[55.668s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/local_setup.dsv
+[55.668s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/package.dsv
+[55.668s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/ament_index/resource_index/packages/offset_pose
+[55.668s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/ament_index/resource_index/moveit_studio_behavior_interface__pluginlib__plugin/offset_pose
+[55.668s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/cmake/offset_poseTargetsExport.cmake
+[55.668s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/cmake/offset_poseTargetsExport-release.cmake
+[55.668s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/cmake/ament_cmake_export_targets-extras.cmake
+[55.669s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/cmake/ament_cmake_export_dependencies-extras.cmake
+[55.669s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/cmake/offset_poseConfig.cmake
+[55.669s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/cmake/offset_poseConfig-version.cmake
+[55.669s] -- Installing: /opt/moveit_studio/user_ws/install/offset_pose/share/offset_pose/package.xml
+[55.673s] Invoked command in '/opt/moveit_studio/user_ws/build/offset_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/overlay_ws/install/moveit_studio_rest_api:/opt/overlay_ws/install/moveit_studio_bridge:/opt/overlay_ws/install/moveit_studio_utils_py:/opt/overlay_ws/install/moveit_studio_site_config_template:/opt/overlay_ws/install/moveit_studio_behavior_template:/opt/underlay_ws/install/rqt_controller_manager:/opt/underlay_ws/install/ros2controlcli:/opt/underlay_ws/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /opt/moveit_studio/user_ws/build/offset_pose

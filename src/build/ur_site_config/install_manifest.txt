@@ -1,0 +1,17 @@
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ur_site_config/config/site_config.yaml
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ur_site_config/objectives/.gitkeep
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ament_index/resource_index/package_run_dependencies/ur_site_config
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ament_index/resource_index/parent_prefix_path/ur_site_config
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ur_site_config/environment/ament_prefix_path.sh
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ur_site_config/environment/ament_prefix_path.dsv
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ur_site_config/environment/path.sh
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ur_site_config/environment/path.dsv
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ur_site_config/local_setup.bash
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ur_site_config/local_setup.sh
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ur_site_config/local_setup.zsh
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ur_site_config/local_setup.dsv
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ur_site_config/package.dsv
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ament_index/resource_index/packages/ur_site_config
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ur_site_config/cmake/ur_site_configConfig.cmake
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ur_site_config/cmake/ur_site_configConfig-version.cmake
+/opt/moveit_studio/user_ws/install/ur_site_config/share/ur_site_config/package.xml

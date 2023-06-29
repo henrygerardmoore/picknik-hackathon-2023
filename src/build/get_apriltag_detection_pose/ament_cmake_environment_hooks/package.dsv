@@ -1,0 +1,4 @@
+source;share/get_apriltag_detection_pose/local_setup.bash
+source;share/get_apriltag_detection_pose/local_setup.dsv
+source;share/get_apriltag_detection_pose/local_setup.sh
+source;share/get_apriltag_detection_pose/local_setup.zsh

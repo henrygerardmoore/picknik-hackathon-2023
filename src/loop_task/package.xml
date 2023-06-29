@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>loop</name>
+  <name>loop_task</name>
   <version>0.0.0</version>
   <description>loop through poses</description>
 
@@ -12,6 +12,7 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <build_depend>moveit_common</build_depend>
+  <depend>tamp_msgs</depend>
 
   <depend>moveit_studio_behavior_interface</depend>
 

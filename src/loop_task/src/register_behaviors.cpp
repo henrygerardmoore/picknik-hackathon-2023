@@ -12,10 +12,9 @@ class LoopBehaviorsLoader : public moveit_studio::behaviors::SharedResourcesNode
 {
 public:
   void registerBehaviors(BT::BehaviorTreeFactory& factory,
-                     const std::shared_ptr<moveit_studio::behaviors::BehaviorContext>& shared_resources) override
+                     const std::shared_ptr<moveit_studio::behaviors::BehaviorContext>&) override
   {
-    moveit_studio::behaviors::registerBehavior<Lloop_taskoop>(factory, "LoopTask");
-    
+    moveit_studio::behaviors::registerBehavior<LoopTask>(factory, "LoopTask");
   }
 };
 }  // namespace loop

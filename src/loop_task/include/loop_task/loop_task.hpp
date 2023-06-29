@@ -1,6 +1,6 @@
 #pragma once
 
-#include <tamp_msgs/PickPlacePlan.hpp>
+#include <tamp_msgs/msg/pick_place_plan.hpp>
 #include <behaviortree_cpp/decorator_node.h>
 
 namespace loop_task {
@@ -17,12 +17,12 @@ public:
     void halt() override { clear(); }
 
 private:
-    tamp_msgs::PickPlacePlan _current_plan;
+    tamp_msgs::msg::PickPlacePlan _current_plan;
     bool _executing_child = false;
 
     void clear()
     {
-        _current_plan = {};
+        _current_plan.actions.clear();
         _executing_child = false;
     }
 };
